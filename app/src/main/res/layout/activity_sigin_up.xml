@@ -23,8 +23,8 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:gravity="start"
-            android:paddingBottom="30dp"
             android:orientation="vertical"
+            android:paddingBottom="30dp"
             tools:context=".SignUpActivity">
 
             <LinearLayout
@@ -34,13 +34,13 @@
                 android:background="@color/colorBlue"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:padding="20dp">
+                android:padding="15dp">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="15dp"
                     android:src="@drawable/ic_info_black_24dp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
@@ -56,6 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:textSize="16sp"
                 android:text="@string/step_2_to_3"
                 android:textColor="@android:color/black" />
 
@@ -65,7 +66,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/create_your_account_to_start"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -74,7 +75,7 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/confirmation_text"
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
@@ -82,7 +83,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/creat_your_account"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -91,6 +92,7 @@
                 android:layout_marginTop="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/siginup_edt_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_edt_text"
@@ -99,7 +101,8 @@
                     android:paddingStart="10dp"
                     android:paddingTop="15dp"
                     android:paddingEnd="10dp"
-                    android:paddingBottom="15dp" />
+                    android:paddingBottom="15dp"
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -108,6 +111,7 @@
                 android:layout_marginTop="8dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/siginup_edt_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_edt_text"
@@ -116,18 +120,19 @@
                     android:paddingStart="10dp"
                     android:paddingTop="15dp"
                     android:paddingEnd="10dp"
-                    android:paddingBottom="15dp" />
+                    android:paddingBottom="15dp"
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_go_continue"
+                android:id="@+id/siginup_btn_continue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorPrimary"
                 android:text="@string/go_continue"
                 android:textColor="@android:color/white"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
