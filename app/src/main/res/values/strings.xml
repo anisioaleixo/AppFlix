@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AppFlix</string>
+    <string name="step_2_to_3">PASSO <b>2</b> DE <b>3</b></string>
+    <string name="creat_your_account">Crie a sua conta.</string>
+    <string name="text">A Netflix é personalizada para você. \nUse seu e-mail e crie uma senha para assistir a Netflix em qualquer aparelho e quando quiser.</string>
+    <string name="go_continue">CONTINUAR</string>
+    <string name="enter">ENTRAR</string>
+    <string name="help">AJUDA</string>
+    <string name="sell_text">Aproveite o primeiro mês com o plano Padrão. <b>É grátis.</b></string>
+    <string name="create_your_account_to_start">Crie uma conta para iniciar sua assinatura</string>
+    <string name="confirmation_text">Faltam só dois passos! Nós também destestamos formulários.</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
 </resources>
